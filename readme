@@ -1,0 +1,132 @@
+<!-- pain points 
+<Pain Point 1
+
+Students know they need to study but don’t know how to break big goals into small daily tasks, so they feel confused and overwhelmed.
+
+Pain Point  2
+
+Students struggle to plan their study time. They have exams or deadlines coming up but can’t organize topics across their available hours.
+
+Pain Point  3
+
+Students often make vague plans like “study more,” but they don’t know when to study which topic, which leads to last-minute cramming.
+
+Pain Point  4
+
+Students have limited time and many topics, but no clear structure. They find it difficult to balance workloads or include revision for harder subjects.
+
+Pain Point  5
+
+Without a guided plan, students feel stressed and unsure how to prepare effectively for an upcoming exam or project. 
+
+
+
+G. Release & Evolution Plan
+3-Month Plan (MVP to V1)
+
+Improve scheduling logic
+
+Add editing of topics inside the UI
+
+Add filters like "Morning study / Night study"
+
+1-Year Plan
+
+User accounts and cloud saving
+
+Calendar visualization
+
+Difficulty-based smart revision recommendations
+
+2-Year Plan
+
+AI-based smart planner that learns from user habits
+
+Integration with Google Calendar
+
+Personalized reminders and analytics dashboard -->
+
+
+<!-- b. Scope :
+
+User tells the system: the goal (exam/project), topics, difficulty, and free time slots.
+
+System generates a 1–2 week study plan.
+
+Topics are distributed fairly across days.
+
+Difficult topics get some extra revision time.
+
+ Out of scope:
+
+Full calendar syncing (Google Calendar, etc.)
+
+AI difficulty prediction based on past behavior
+
+Long-term plans (more than 2 weeks)
+
+Real-time reminders or notifications
+
+Automatic performance tracking 
+
+
+
+<!-- Study Session Planner – MVP
+
+This is a simple web-based Study Planner that helps students turn their study goals into a clear 1–2 week plan.
+Students enter topics, difficulty, and available hours, and the system generates a schedule.
+
+Features
+
+Add study goal, start date, and number of days
+
+Add topics with difficulty level and hours
+
+Add daily availability
+
+Automatically generated study plan
+
+Dark & light mode
+
+Everything saved in browser LocalStorage 
+
+Example Input
+
+Goal: “Web Engineering Exam”
+Plan Days: 7
+Topics:
+
+Chapter 1 – Difficulty 3 – 2 hours
+
+Chapter 2 – Difficulty 5 – 3 hours
+
+Chapter 3 – Difficulty 2 – 1 hour
+
+Availability:
+Day 1: 2 hrs
+Day 2: 3 hrs
+Day 3: 1 hr
+… etc.
+
+Example Output
+Day 1:
+• Chapter 2 — 1 hour
+• Chapter 1 — 1 hour
+
+Day 2:
+• Chapter 2 — 1 hour
+• Chapter 1 — 1 hour
+• Chapter 3 — 1 hour
+
+Day 3:
+• Chapter 2 — 1 hour
+
+
+
+F. UI_Sketch_Vision.
+
+UI Vision 
+
+The UI is designed to be clear and easy to follow. Each major step (goal, topics, availability, schedule) is placed in its own page to avoid confusion. Students only see the information they need at each step.
+The final schedule is shown in clean day-wise cards, making it easy for students to know what to study each day. The goal is to reduce stress by keeping everything simple, organized, and easy to understand.
+
